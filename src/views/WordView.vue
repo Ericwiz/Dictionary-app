@@ -25,7 +25,6 @@ const searchWord = ref(function() {
                 axios.get('https://api.dictionaryapi.dev/api/v2/entries/en/' + props.word)
                 .then(res => {
                 words.value = res.data
-                words.value = words.value.slice(0, 1)
                 })
                 .catch(err => console.log(err))
         }
