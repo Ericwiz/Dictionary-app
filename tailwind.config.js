@@ -18,6 +18,6 @@ export default {
   ],
 
   daisyui: {
-    themes: ["light", "dark", 'synthwave', 'night', 'coffee'],
+    themes: ["light", "dark", 'synthwave', 'cyberpunk', 'night', 'coffee', 'luxury', 'retro'],
   },
 }

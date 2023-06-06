@@ -29,6 +29,11 @@ onMounted(() => {
             <option value="dark">dark</option>
             <option value="light">light</option>
             <option value="synthwave">synthwave</option>
+            <option value="cyberpunk">cyberpunk</option>
+            <option value="night">night</option>
+            <option value="coffee">coffee</option>
+            <option value="luxury">luxury</option>
+            <option value="retro">retro</option>
         </select>
     </div>
 
