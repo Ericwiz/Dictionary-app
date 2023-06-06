@@ -77,6 +77,8 @@ const searchWord = ref(function() {
                 <a :href="word.sourceUrls[0]" class="italic underline">{{ word.sourceUrls[0]}}</a>
                </div>
                 </div>
+
+                
            </template>
 
             <template #fallback>
