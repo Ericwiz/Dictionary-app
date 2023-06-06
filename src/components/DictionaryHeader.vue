@@ -36,7 +36,7 @@ onMounted(() => {
         <input type="text" v-model="inputVal" placeholder="search word" class="input input-bordered w-full" />
 
         <router-link v-if="inputVal" @click="$emit('searchWord')" :to="{name: 'WordView', params: {word: inputVal || undefined}}" class="btn btn-secondary btn-sm sm:btn-md">
-            Search word
+            Search 
         </router-link>
 
         <!-- <button v-if="inputVal" :disabled="!inputVal" class="btn btn-secondary" @click="searchWord">

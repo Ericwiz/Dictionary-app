@@ -14,7 +14,6 @@ import axios from 'axios';
     {
     axios.get('https://api.dictionaryapi.dev/api/v2/entries/en/' + props.word)
     .then(res => {
-      console.log(res.data)
       words.value = res.data
     })
     .catch(err => console.log(err))
@@ -25,12 +24,8 @@ const searchWord = ref(function() {
             {
                 axios.get('https://api.dictionaryapi.dev/api/v2/entries/en/' + props.word)
                 .then(res => {
-                console.log(res.data)
                 words.value = res.data
                 words.value = words.value.slice(0, 1)
-                // for(let word of words.value) {
-                //     console.log(word.phonetics)
-                // }
                 })
                 .catch(err => console.log(err))
         }
@@ -40,11 +35,6 @@ const searchWord = ref(function() {
     searchWord.value()
    })
 
-//    const audioPlayer = ref(null)
-
-//    const playAudio = function() {
-//     audioPlayer.value.play()
-//    }
 </script>
 
 <template>
