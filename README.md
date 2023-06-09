@@ -55,7 +55,7 @@ During the development process, some challenges were encountered in handling API
 <!-- This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. -->
 
 ## Contact Information
-For any questions or feedback, please reach out to [your-email@example.com](your-email@example.com).
+For any questions or feedback, please reach out to [wisdomagu44@gmail.com](wisdomagu44@gmail.com).
 
 ## References
 - [Vue.js documentation](https://vuejs.org/guide/introduction.html)
