@@ -2,6 +2,9 @@
 
 A Vue.js application that allows users to search for word definitions and phonetics. Users can enter a word in the search field and retrieve its definition, part of speech, example sentences, and phonetic pronunciation. The application utilizes a dictionary API to fetch the word data and provide accurate and comprehensive information.
 
+## Live Link
+[Dictionary App](https://agu-wisdom-dictionary-app.netlify.app/)
+
 ## Technologies Used
 - Vue.js
 - Dictionary API
